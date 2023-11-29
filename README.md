@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est un gestionnaire de tâches (ou To Do list en anglais). Ce projet a été réalisé en React et est inspiré de [ce lien](www.youtube.com/watch?v=w7ejDZ8SWv8). 
+Ce projet est un gestionnaire de tâches (ou To Do list en anglais). Ce projet a été réalisé en React et est inspiré de [ce lien](https://www.youtube.com/watch?v=w7ejDZ8SWv8). 
 
 Le fonctionnement de l'application est simple. L'utilisateur peut ajouter des tâches ou en supprimer. Une tâche possède un titre, une date (au format jour/mois/année), et un attribut rappel (activable en cliquant sur la cloche) qui permet de mettre en valeur la tâche (et ainsi voir plus facilement les tâches importantes).
 
