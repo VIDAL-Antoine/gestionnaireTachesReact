@@ -1,23 +1,22 @@
-# Gestionnaire de tâches
+# Task Tracker
 
 ## Description
 
-Ce projet est un gestionnaire de tâches (ou To Do list en anglais). Ce projet a été réalisé en React et est inspiré de [ce lien](https://www.youtube.com/watch?v=w7ejDZ8SWv8). 
+This project is a task tracker (or To-Do list). This project was built with React and is inspired by [this link](https://www.youtube.com/watch?v=w7ejDZ8SWv8). 
 
-Le fonctionnement de l'application est simple. L'utilisateur peut ajouter des tâches ou en supprimer. Une tâche possède un titre, une date (au format jour/mois/année), et un attribut rappel (activable en cliquant sur la cloche) qui permet de mettre en valeur la tâche (et ainsi voir plus facilement les tâches importantes).
+The application is simple to use. The user can add or delete tasks. A task has a title, a date (in day/month/year format), and a reminder attribute (activated by clicking on the bell) which highlights the task (and thus makes it easier to see important tasks).
 
-## Ajouts
+## Additions
 
-Divers ajouts ont été effectués par rapport à l'application intégrale. L'application utilisait de base une chaîne de caractères (string) pour stocker les dates, j'ai préféré utilisé des objets de type Date pour pouvoir manipuler les dates et pouvoir afficher le nombre de jours restants avant l'échéance d'une tâche. 
+Various additions have been made to the full application. The basic application used a string to store dates, so I preferred to use Date objects to manipulate dates and display the number of days remaining before a task's due date. 
 
-De plus, le rappel fonctionnait à la base avec un double-clic sur la tâche souhaitée, j'ai décidé d'ajouter un bouton cloche qui permet d'activer ou désactiver le rappel. 
+What's more, since the reminder was implemented with a double-click, I decided to change it to a bell button to activate or deactivate the reminder. 
 
-Tous ces ajouts ont également impliqués de nouveaux ajouts au niveau du HTML/CSS pour pouvoir afficher ces éléments correctement.
+All these additions also involved new additions to the HTML/CSS to be able to display these elements correctly.
 
-## Utilisation
+## Usage
 
-L'application utilise un serveur JSON côté backend pour stocker les tâches. Ainsi pour faire tourner l'application il est nécessaire de d'abord lancer le serveur JSON et d'ensuite ouvrir un autre terminal pour lancer l'application. Il faut donc lancer les commandes suivantes : 
-
-1. Installer les dépendances : `npm install`
-2. Lancer le serveur JSON qui contient les tâches enregistrées (sur http://localhost:5000) : `npm run server`
-3. Lancer l'application React sur un autre terminal (sur http://localhost:3000) : `npm start`
+The application uses a JSON server on the backend to store tasks. To run the application, you first need to launch the JSON server and then open another terminal to launch the application. To do this, run the following commands: 
+- Install dependencies: `npm install`
+- Run the JSON server containing the recorded tasks (on http://localhost:5000): `npm run server`
+- Launch the React application on another terminal (on http://localhost:3000): `npm start`
